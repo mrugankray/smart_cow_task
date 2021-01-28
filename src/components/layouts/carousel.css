@@ -1,0 +1,18 @@
+img {
+    height: 300px;
+    width: 90%;
+    object-fit: cover;
+    /* margin-left: 4em; */
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.img-container p {
+    /* margin-top: 50%; */
+    position: absolute;
+    top: 50%;
+}

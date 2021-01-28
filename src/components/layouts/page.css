@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Julius+Sans+One&family=Montserrat:wght@400;600&family=Mulish&display=swap');
+
+.main-content {
+    background-color: white;
+    justify-content: center;
+    height: 90vh;
+    color: #242B2E;
+}
+
+.side-bar {
+    background-color: #30373e;
+    color: white;
+    font-size: 1.3rem;
+    height: 90vh;
+}
+
+.side-bar li {
+    margin: 1em 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .side-bar {
+        display: none;
+    }
+}
